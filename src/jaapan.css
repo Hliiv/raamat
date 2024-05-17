@@ -1,0 +1,47 @@
+h1 {
+    color: rgb(255, 0, 179);
+    font: size 40px;
+    font-family:'Courier New', Courier, monospace
+
+    
+}
+p {
+    color: rgb(196, 7, 155);
+    font-weight:lighter;
+    font-variant: small-caps;
+    font-size: larger;
+}
+p1 {color: rgb(196, 7, 155);
+    font-weight:lighter;
+    font-variant: small-caps;
+    font-size: larger;
+}
+p2{color: black;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .text {
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 250px;
+  }
+  
+  .image {
+    max-width: 50%;
+    height: 500px;
+    margin-top: 8%;
+    margin-right: 30px;
+  }

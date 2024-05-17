@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import jaapan from './jaapan.webp';
+import Jaapan from './Jaapan';
+import './jaapan.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="container">
+      <div className="content">
+        <div className="text">
+      <h1>Lemmikraamat </h1>
+      <Jaapan/>
+      </div>
+        <img className="image" src={jaapan} alt='jaapan'/>
+         </div>
+         </div>
   );
 }
 
